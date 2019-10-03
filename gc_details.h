@@ -29,6 +29,7 @@ array, then arraySize contains its size */
 		}
     }
 };
+
 // Overloading operator== allows two class objects to be compared.
 // This is needed by the STL list class.
 template <class T>

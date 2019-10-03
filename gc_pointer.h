@@ -248,7 +248,6 @@ bool Pointer<T, size>::collect()
 
 			// Remove unused entry from refContainer.
 			p = refContainer.erase(p);
-			//refContainer.remove(*p);
 			// Restart the search.
 			break;
 		}
